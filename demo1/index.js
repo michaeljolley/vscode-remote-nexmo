@@ -9,7 +9,7 @@ const nexmo = new Nexmo({
 
 const from = "12053501515";
 const message =
-  'Thanks for hanging out today! You can find my slides, demos and more at http://bit.ly/devopsdays2019';
+  "Thanks for hanging out today! You can find my slides, demos and more at http://bit.ly/devopsdays2019";
 
 exports.devopsdays = (req, res) => {
   const params = Object.assign(req.query, req.body);
